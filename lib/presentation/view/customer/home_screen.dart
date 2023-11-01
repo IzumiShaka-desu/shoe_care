@@ -82,11 +82,11 @@ class HomeScreen extends StatelessWidget {
             onPressed: () {
               context.push("/customer/history-order");
             },
-            icon: Icon(Icons.history_outlined),
+            icon: const Icon(Icons.history_outlined),
           ),
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.info_outline),
+            icon: const Icon(Icons.info_outline),
           ),
         ],
       ),
@@ -97,7 +97,7 @@ class HomeScreen extends StatelessWidget {
             children: [
               // avatar
               Padding(
-                padding: EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(8.0),
                 child: Builder(builder: (context) {
                   final profileState =
                       context.watch<AuthViewmodel>().profileState;
@@ -142,7 +142,7 @@ class HomeScreen extends StatelessWidget {
                   ],
                 );
               }),
-              Spacer(),
+              const Spacer(),
               // logout
               IconButton(
                 onPressed: () {
