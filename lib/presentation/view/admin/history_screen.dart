@@ -5,7 +5,6 @@ import 'package:shoe_care/app/enum/order_status.dart';
 import 'package:shoe_care/app/extension/extension.dart';
 
 import '../../../app/enum/screen_status.dart';
-import '../../viewmodel/customer_viewmodel.dart';
 import '../../viewmodel/mitra_viewmodel.dart';
 
 class HistoryScreen extends StatelessWidget {
