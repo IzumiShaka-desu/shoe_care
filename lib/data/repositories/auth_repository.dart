@@ -1,4 +1,3 @@
-import 'package:hive_flutter/hive_flutter.dart';
 import 'package:shoe_care/data/datasources/auth_datasources.dart';
 import 'package:shoe_care/data/datasources/session_datasource.dart';
 import 'package:shoe_care/data/models/user_profile_model.dart';
