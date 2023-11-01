@@ -46,7 +46,7 @@ class MerchanListScreen extends StatelessWidget {
             final item = items[index];
             return InkWell(
               onTap: () {
-                Future.delayed(Duration(milliseconds: 100), () {
+                Future.delayed(const Duration(milliseconds: 100), () {
                   context.read<CustomerViewmodel>().updateRequest(
                         idMitra: item.idMitra,
                         serviceType: serviceTypeToString(serviceType),
