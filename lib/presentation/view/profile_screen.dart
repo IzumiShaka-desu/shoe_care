@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 
 import '../../app/utils/color_utils.dart';
 import '../viewmodel/auth_viewmodel.dart';
-import '../widgets/upload_image_dialog.dart';
 
 class MyProfileScreen extends StatelessWidget {
   const MyProfileScreen({super.key});
