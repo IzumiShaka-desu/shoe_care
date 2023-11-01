@@ -70,8 +70,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Text("Please fill the form below to register new account"),
-              SizedBox(
+              const Text("Please fill the form below to register new account"),
+              const SizedBox(
                 height: 16,
               ),
               TextFormField(
