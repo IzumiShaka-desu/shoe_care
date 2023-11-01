@@ -40,7 +40,7 @@ class _ReviewDialogState extends State<ReviewDialog> {
       content: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text("Give your review "),
+          const Text("Give your review "),
           const SizedBox(
             height: 8,
           ),
