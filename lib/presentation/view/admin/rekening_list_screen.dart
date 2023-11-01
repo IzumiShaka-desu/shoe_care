@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shoe_care/data/models/mitra_rekening_mode.dart';
 
 import '../../viewmodel/mitra_viewmodel.dart';
 import 'rekening_form.dart';
