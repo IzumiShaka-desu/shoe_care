@@ -40,7 +40,7 @@ class _ItemCountBarState extends State<ItemCountBar> {
                 width: 64,
                 height: 64,
               ),
-              SizedBox(width: 16),
+              const SizedBox(width: 16),
               Text(widget.title),
             ],
           ),
@@ -54,7 +54,7 @@ class _ItemCountBarState extends State<ItemCountBar> {
                     widget.onCountChanged(countItem);
                   });
                 },
-                icon: Icon(Icons.remove),
+                icon: const Icon(Icons.remove),
               ),
               Text("$countItem"),
               IconButton(
@@ -64,7 +64,7 @@ class _ItemCountBarState extends State<ItemCountBar> {
                     widget.onCountChanged(countItem);
                   });
                 },
-                icon: Icon(Icons.add),
+                icon: const Icon(Icons.add),
               ),
             ],
           ),
