@@ -32,11 +32,11 @@ class _UploadImageDialogState extends State<UploadImageDialog> {
               : Container(
                   height: 200,
                   width: 200,
-                  child: Icon(
+                  color: Colors.grey,
+                  child: const Icon(
                     Icons.image,
                     size: 32,
                   ),
-                  color: Colors.grey,
                 ),
           const SizedBox(height: 16),
           ListTile(
