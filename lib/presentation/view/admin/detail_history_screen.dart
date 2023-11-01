@@ -7,7 +7,6 @@ import 'package:shoe_care/app/extension/extension.dart';
 import 'package:shoe_care/presentation/viewmodel/mitra_viewmodel.dart';
 import 'package:shoe_care/presentation/widgets/step_progress_bar.dart';
 
-import '../../viewmodel/customer_viewmodel.dart';
 import '../../widgets/order_status_bottom_sheet.dart';
 import '../../widgets/upload_image_dialog.dart';
 
@@ -191,8 +190,9 @@ class DetailHistoryScreen extends StatelessWidget {
                                       data.paymentProofUrl,
                                       loadingBuilder:
                                           (context, child, loadingProgress) {
-                                        if (loadingProgress == null)
+                                        if (loadingProgress == null) {
                                           return child;
+                                        }
                                         return const Center(
                                           child: Padding(
                                             padding: EdgeInsets.all(8.0),
