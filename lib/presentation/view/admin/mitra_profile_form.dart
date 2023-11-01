@@ -80,6 +80,7 @@ class _MitraProfileFormState extends State<MitraProfileForm> {
                 if (value == null || value.isEmpty) {
                   return "Nama tidak boleh kosong";
                 }
+                return null;
               },
             ),
             // address
@@ -92,6 +93,7 @@ class _MitraProfileFormState extends State<MitraProfileForm> {
                 if (value == null || value.isEmpty) {
                   return "Alamat tidak boleh kosong";
                 }
+                return null;
               },
             ),
             // servis list
@@ -260,7 +262,7 @@ class _MitraProfileFormState extends State<MitraProfileForm> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 16,
             ),
             // button submit
