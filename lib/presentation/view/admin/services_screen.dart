@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shoe_care/app/enum/service_type.dart';
 import 'package:shoe_care/app/extension/context_utils.dart';
 import 'package:shoe_care/app/extension/extension.dart';
 
