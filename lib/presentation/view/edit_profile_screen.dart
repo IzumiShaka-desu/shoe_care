@@ -6,7 +6,6 @@ import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 import 'package:shoe_care/app/extension/context_utils.dart';
 import 'package:shoe_care/data/models/user_profile_model.dart';
-import 'package:shoe_care/presentation/view/login_screen.dart';
 import 'package:shoe_care/presentation/viewmodel/auth_viewmodel.dart';
 
 import 'admin/mitra_profile_form.dart';
@@ -193,7 +192,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                   },
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 16,
               ),
               TextFormField(
