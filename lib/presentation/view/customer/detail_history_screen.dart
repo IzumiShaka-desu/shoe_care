@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 import 'package:shoe_care/app/enum/order_status.dart';
 import 'package:shoe_care/app/extension/context_utils.dart';
 import 'package:shoe_care/app/extension/extension.dart';
 import 'package:shoe_care/presentation/widgets/upload_image_dialog.dart';
-import 'package:shoe_care/presentation/widgets/dashed_line.dart';
 import 'package:shoe_care/presentation/widgets/rating_bar.dart';
 import 'package:shoe_care/presentation/widgets/step_progress_bar.dart';
 
